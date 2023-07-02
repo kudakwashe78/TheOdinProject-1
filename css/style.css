@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+}
+.header-hero-background {
+	background: #1f2937;
+	height: 550px;
+}
+.flex-header {
+	width: 80%;
+	height: 90px;
+	margin: auto;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-logo ul a {
+	text-decoration: none;
+	color: #f9faf8;
+}
+.header-logo ul li {
+	flex: 1;
+	display: inline;
+	align-items: end;
+	margin: 10px;
+}
+.flex-container {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.item {
+	width: 150px;
+	height: 150px;
+	border: 4px solid #3882f6;
+	border-radius: 20px;
+	margin: 10px;
+}
+h1 {
+	text-align: center;
+}
+/* Logo Styles */
+#logo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+/* Hero styles */
+.hero-main {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.hero-main-text {
+	flex: 1;
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: bold;
+}
+.hero-item-1 p {
+	color: #f9faf8;
+	font-size: 18px;
+	margin-top: 40px;
+}
+.hero-main-text, .hero-item-1 p {
+	display: flex;
+	align-items: center;
+}
+/* Sign Up button styles */
+.sign-up {
+	margin-top: 40px;
+	padding: 15px 32px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #3882f6;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
+/* Some Random Information Section styles */
+h1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #1f2937;
+	font-size: 36px;
+}
+.subtext {
+	display: flex;
+}
+.text {
+	display: flex;
+	align-items: center;
+}
+.item p {
+	text-align: center;
+	margin-top: 160px;
+}
+/* Inspiring Quote Styles */
+.inspiring-quote {
+	background: #e5e7eb;
+	margin-top: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.quote {
+	width: 60%;
+	margin: auto;
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: light;
+	font-style: italic;
+	text-align: justify;
+}
+#god-of-thunder {
+	text-align: right;
+	color: #000000;
+	font-style: normal;
+}
+/* Sign Up section styles */
+.product {
+	#display: flex;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.signup-container {
+	width: 80%;
+	margin: auto;
+}
+.sign-up-section {
+	background: #3882f6;
+	width: 80%;
+	height: 150px;
+	margin: auto;
+	padding: 40px;
+	color: #ffffff;
+	border-radius: 10px;
+}
+h2 {
+	#margin-top: 10px;
+}
+#product-sign-up {
+	#margin-top: -65px;
+}
+#sign-up-btn {
+	position: relative;
+	bottom: 12px;
+	padding: 15px 32px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #3882f6;
+	border: 2px solid #ffffff;
+	border-radius: 15px;
+	cursor: pointer;
+	left: 320px;
+}
+/*Footer Styles */
+footer {
+	background: #1f2937;
+	color: #ffffff;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+}
